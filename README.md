@@ -1,3 +1,0 @@
-HTML CSS COMPLETED TASKS (REACT25K)
-
-[x] Base project
