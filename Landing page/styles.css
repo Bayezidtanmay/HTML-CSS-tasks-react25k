@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #69023b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+
+.header .logo img {
+  width: 50%;
+}
+
+.header .nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .nav ul li {
+  padding: 0px 15px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  color: #fadfd1;
+  font-weight: 500;
+  transition: all ease 0.4s;
+  font-family: poppins;
+}
+
+.header .nav ul li a:hover {
+  border-bottom: 3px solid #ca054d;
+}
+
+.hero-sec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/image.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-sec h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 500;
+  font-family: Morion;
+}
+
+.hero-sec h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: Morion;
+  margin-top: 20px;
+}
+
+.hero-sec a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 40px;
+  background-color: #ca054d;
+  padding: 15px 30px;
+  transition: all ease 0.4s;
+  font-family: poppins;
+}
+
+.hero-sec a:hover {
+  background-color: white;
+  color: #ca054d;
+}
+
+.about-sec {
+  background-color: #69023b;
+  height: 70vh;
+}
+
+.about-sec h1 {
+  color: white;
+  font-family: poppins;
+  font-weight: 500;
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+.about-sec .para {
+  color: white;
+  font-family: poppins;
+  font-weight: 300;
+  padding-left: 100px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: justify;
+}
+
+.about-sec .list {
+  color: white;
+  font-family: poppins;
+  font-weight: 500;
+  padding-left: 100px;
+  padding-top: 30px;
+  width: 50%;
+  text-align: justify;
+}
+
+.about-sec ul {
+  color: white;
+  font-family: poppins;
+  font-weight: 400;
+  padding-left: 100px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: justify;
+  list-style: none;
+}
+
+.testimonial {
+  padding-left: 100px;
+}
+
+.testimonial h1 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.testimonial p {
+  font-family: poppins;
+}
+
+.testimonial a {
+  font-family: poppins;
+  text-decoration: none;
+  color: #69023b;
+}
+
+.testimonial .alumni {
+  font-family: poppins;
+  padding-top: 70px;
+  color: #69023b;
+  font-size: 48px;
+  font-weight: 400;
+  width: 70%;
+}
+
+.testimonial hr {
+  width: 75%;
+  margin-top: 10px;
+  color: rgb(149, 149, 149);
+  margin-bottom: 40px;
+}
+
+.testimonial .testimonial-btn {
+  background-color: #fbefea;
+  padding: 15px 15px;
+  border: 1px solid #69023b;
+  border-radius: 5px;
+}
+
+.student {
+  margin-top: 40px;
+  font-size: 18px;
+  width: 75%;
+}
+
+.student .name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.story {
+  margin-top: 20px;
+  width: 75%;
+}
+
+.icons {
+  padding-left: 90px;
+  padding-top: 30px;
+}
+
+.icons i {
+  font-size: 35px;
+  padding: 15px;
+  color: #69023b;
+}
+
+.footer {
+  background-color: #69023b;
+  height: 85vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer img {
+  width: 30%;
+  padding-top: 50px;
+}
+
+.footer .social-icons a {
+  color: white;
+  font-size: 35px;
+  padding: 12px;
+}
+
+.footer .links p {
+  font-family: poppins;
+  color: #fadfd1;
+  font-size: 14px;
+  padding-top: 60px;
+}
+
+.footer .links ul {
+  padding-top: 30px;
+}
+
+.footer .links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.footer .links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .links ul li {
+  padding-top: 5px;
+}
+
+.footer .address {
+  text-align: center;
+  padding-top: 35px;
+  font-family: poppins;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 10px;
+  font-family: poppins;
+}
