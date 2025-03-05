@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #236747;
+  height: 100vh;
+}
+
+.whole-form {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 3px;
+  height: 80vh;
+  width: 25%;
+}
+
+.whole-form .header .heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.whole-form .header .para {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.whole-form .form label {
+  display: block;
+  padding-top: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.whole-form .form input {
+  width: 100%;
+  font-size: 30px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+}
+
+.whole-form .btn {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.whole-form .btn a {
+  text-decoration: none;
+  background-color: #fb7f50;
+  color: white;
+  padding: 7px 90px;
+  border-radius: 5px;
+}
+
+.condition p {
+  font-size: 13px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.condition p span {
+  color: #fb7f50;
+}
+
+.condition p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.account p {
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.account p span {
+  color: #fb7f50;
+}
+
+.account p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 1149px) {
+  .whole-form {
+    width: 30%;
+    height: 90vh;
+  }
+
+  .whole-form .header .para {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 997px) {
+  .whole-form {
+    width: 35%;
+    height: 90vh;
+  }
+
+  .account p {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 857px) {
+  .whole-form .header .para {
+    font-size: 15px;
+  }
+
+  .whole-form .btn a {
+    padding: 7px 50px;
+  }
+}
+
+@media (max-width: 848px) {
+  .whole-form .header .heading {
+    font-size: 28px;
+  }
+  .whole-form .header .para {
+    font-size: 14px;
+  }
+  .condition p {
+    font-size: 12px;
+  }
+  .account p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 804px) {
+  .whole-form {
+    width: 45%;
+  }
+}
+
+@media (max-width: 690px) {
+  .whole-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 565px) {
+  .whole-form {
+    width: 55%;
+  }
+}
+
+@media (max-width: 512px) {
+  .whole-form .header .heading {
+    font-size: 24px;
+  }
+  .whole-form {
+    width: 57%;
+  }
+}
+
+@media (max-width: 419px) {
+  .whole-form .header .heading {
+    font-size: 24px;
+  }
+  .whole-form {
+    width: 60%;
+  }
+}
